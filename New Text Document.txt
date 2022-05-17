@@ -1,0 +1,23 @@
+1.git init
+
+2.git add .
+ 
+3.git commit -m "initial commit"
+
+4.git remote add origin "ssh path"
+
+5.git push origin  master
+
+
+---------------------------
+
+if code is not pushing
+
+1. go to acct setting --> developers setting-->create the token.
+2.copy that token. 
+
+3.get the http link of the repository  and enter the following command in the git bash//  git remote set-url origin "http link here"
+
+4.now add the personal access token before the github and add @ before the github.
+
+5.enter the command  ---  git push origin master
